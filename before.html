@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p::before */
+        p::after
+        {
+            /* content: "hello"; */
+            content: '';
+            /* border: 1px solid red; */
+            width: 0;
+            height: 2px;
+            display: block;
+            background-color: aqua;
+            transition: width 1s ease-in-out;
+        }
+        p:hover::after{
+        width:300px
+        
+        }
+        #first-letter::first-letter
+         {
+            color: red;
+        }
+        #first-line::first-line
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <P id="first-line">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi praesentium sapiente, sequi beatae asperiores eos quos exercitationem rem nemo cumque nihil aperiam excepturi ratione distinctio sed, reprehenderit dignissimos eveniet quia.
+    </P>
+    <P id="first-letter">lorem ipsum dolor</P>
+</body>
+</html>

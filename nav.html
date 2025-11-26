@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <style>
+        .li
+        {
+            width: 50%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: space-around;
+            
+            
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: large;
+            background-color: blanchedalmond;
+            /* border: 2px solid black; */
+            padding-bottom: 30px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+        .hero{
+            background-color: cornsilk;
+            height: 100vh;
+            margin-top: 15px;
+        }
+        
+        .mobile{
+            display: flex;
+            padding: 12px;
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid black;
+        }
+
+        img{
+            border-radius: 14px;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        
+    </style>
+    <script>
+        
+        function loadingT(){
+           let D= new Date();
+       
+        
+           document.getElementById("time").innerHTML=  D.toLocaleTimeString;
+           setInterval(loadingT, 1000);
+        }
+
+        loadingT();
+
+    </script>
+</head>
+<body>
+    <header class="nav">
+        <h1 style="">
+            Animal Planet
+        </h1>
+        <div class="li">
+
+            <a href="mobile" >mobile</a>
+            <a href="laptop" >laptop</a>
+            <a href="wifi" >wifi</a>
+            <a href="network" >network</a>
+        </div>
+        <br>
+        <span id="time"></span>
+        
+
+    </header>
+
+    <div class="hero">
+
+
+        <div class="mobile">
+            <div class="left">
+                <img src="CSS/assets/image/img.jpg" width="300px" alt="">
+            </div>
+            <div class="right">
+
+                <h1>Mobile</h1>
+                <p>
+                    A mobile phone is an electronic wireless, portable device, which is used to receive and send voice and messages. Undoubtedly, it is one of the most spectacular developments, ever to have taken place in the field of telecommunication. It is a wonderful gift of science to society.
+                </p>
+            </div>
+    </div>
+    
+     <div class="mobile">
+         <div class="right">
+
+                <h1>Laptop</h1>
+                <p>
+                    A mobile phone is an electronic wireless, portable device, which is used to receive and send voice and messages. Undoubtedly, it is one of the most spectacular developments, ever to have taken place in the field of telecommunication. It is a wonderful gift of science to society.
+                </p>
+            </div>
+            <div class="left">
+                <img src="CSS/assets/image/pexels-pixabay-33045.jpg" width="300px" alt="">
+            </div>
+           
+    </div>
+     <div class="mobile">
+            <div class="left">
+                <img src="CSS/assets/image/pexels-pixabay-326055.jpg" width="300px" alt="">
+            </div>
+            <div class="right">
+
+                <h1>Mobile</h1>
+                <p>
+                    A mobile phone is an electronic wireless, portable device, which is used to receive and send voice and messages. Undoubtedly, it is one of the most spectacular developments, ever to have taken place in the field of telecommunication. It is a wonderful gift of science to society.
+                </p>
+            </div>
+    </div>
+     <div class="mobile">
+         <div class="right">
+
+                <h1>Mobile</h1>
+                <p>
+                    A mobile phone is an electronic wireless, portable device, which is used to receive and send voice and messages. Undoubtedly, it is one of the most spectacular developments, ever to have taken place in the field of telecommunication. It is a wonderful gift of science to society.
+                </p>
+            </div>
+            <div class="left">
+                <img src="CSS/assets/image/pexels-pixabay-60597.jpg" width="300px" alt="">
+            </div>
+           
+    </div>
+    
+     
+    
+    
+</div>
+</body>
+</html>

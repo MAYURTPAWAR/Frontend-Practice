@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>label</h1>
+
+<p>Click on one of the text labels to toggle the related radio button:</p>
+
+<form onsubmit="handleSubmit(event)">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<p id="message"></p>
+
+<script>
+function handleSubmit(event) {
+  event.preventDefault(); // Prevents page reload
+  document.getElementById("message").innerText = "Form Submitted!";
+}
+</script>
+
+</body>
+</html>

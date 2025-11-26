@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: white;
+    }
+
+    /* Navbar container */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 40px;
+      background: #000;
+    }
+
+    /* Logo */
+    .logo {
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: orange;
+    }
+
+    .logo b {
+      color: #a24db0; /* Purple (like Seven) */
+      margin-left: 5px;
+    }
+
+    /* Menu links */
+    .menu {
+      display: flex;
+      gap: 15px;
+      font-size: 14px;
+    }
+
+    .menu a {
+      color: orange;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .menu a:hover {
+      color: white;
+    }
+
+    /* Right section (social icons + button) */
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .right a img {
+      width: 22px;
+      height: 22px;
+    }
+
+    .callback-btn {
+      background: orange;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .callback-btn:hover {
+      background: darkorange;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+      <span>🟧</span>
+      <b>Seven</b>Mentor
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+      <a href="#">Certificate</a> |
+      <a href="#">Events</a> |
+      <a href="#">Corporate Training</a> |
+      <a href="#">Students Reviews</a> |
+      <a href="#">Free Courses</a> |
+      <a href="#">Feedback</a> |
+      <a href="#">Franchise Opportunities</a> |
+      <a href="#">Careers</a> |
+      <a href="#">Hiring Partners</a>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="Instagram"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="LinkedIn"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733646.png" alt="YouTube"></a>
+      <button class="callback-btn">Request Callback</button>
+    </div>
+  </div>
+</body>
+</html>

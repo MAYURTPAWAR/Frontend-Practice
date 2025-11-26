@@ -1,0 +1,39 @@
+
+
+.m2{
+    background-color: cadetblue; color: aliceblue; 
+     
+}
+
+
+/* .m2:hover{
+    background-color: darkred;
+    color: rebeccapurple;
+    transform: scale(1.03);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+     
+} */
+
+.input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 100%;
+}
+.nm{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot{
+    
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.btn{
+    font-size: large;
+    width: 100px;
+    padding: 5px;
+    margin-left: 22px;
+
+}

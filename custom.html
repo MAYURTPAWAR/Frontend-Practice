@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --cr:rgb(250, 0, 179);
+             --br:1px solid red;
+        }
+        #ch1
+        {
+            color:var(--cr);
+        }
+         #ch2
+        {   
+            --local:green;
+            color:var(--local);
+            border: var(--br);
+           
+        }
+         #ch3
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p id="ch1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, id!
+    </p>
+    <div id="ch2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, rem.
+    </div>
+    <h1 id="ch3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sit!
+    </h1>
+</body>
+</html>

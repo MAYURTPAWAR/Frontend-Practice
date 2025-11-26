@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        #flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-evenly;
+            /* justify-content: space-around; */
+            align-items: center;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <span>
+        Hello1
+    </span>
+
+
+    <span style="display: block; width: 200px; border: 2px solid black;">
+        Hello2
+    </span>
+    <br>
+    <br>
+    <br>
+
+    <!-- block -->
+
+    <div id="block">
+        <span>
+            Hello1
+        </span>
+        <span style="display: block; width: 200px; border: 2px solid black;">hello2</span>
+
+    </div>
+    <br>
+    <br>
+    <!-- inline -->
+    <div id="inline">
+        <span>
+            hello
+        </span>
+        <div style="display: inline; border:2px solid red">hello2</div>
+    </div>
+    <br>
+    <br>
+
+
+    <!-- inline block -->
+
+    <div id="inline-block">
+        <span>
+            hello
+        </span>
+        <div style="display: inline-block; border:2px solid red;width: 300px;">hello2</div>
+    </div>
+    <br>
+    <br>
+
+    <!-- none -->
+
+    <div id="none">
+        <span style="display: none;">
+            hello
+        </span>
+        <div style="display: inline-block; border:2px solid red;width: 300px;text-align: center;">hello2</div>
+    </div>
+    <br>
+    <br>
+
+    <!-- display flex -->
+    <div id="flex" style="border: 3px solid black; height:500px;">
+        <div style="width: 200px; height: 100px; border: 3px solid black; background-color: aqua; visibility: hidden;">BOX 1</div>
+        <div style="width: 200px; height: 100px;  border: 3px solid black; background-color: aquamarine;">BOX 2</div>
+        <div style="width: 200px; height: 100px; border: 3px solid black;  background-color: rgb(253, 15, 182);">BOX 3</div>
+        <div style="width: 200px; height: 100px; border: 3px solid black; background-color: rgb(179, 245, 28); cursor: grab;">BOX 4</div>
+    </div>
+    <div style="font-size:  30px; opacity:0.5;">
+        Tips to craft a recruiter-attracting LinkedIn profile
+        Techniques to boost visibility and credibility on both platforms
+        Best practices to connect with HRs, hiring managers, and companies
+        Smart strategies to grow your professional network
+
+
+    </div>
+
+
+</body>
+
+</html>
